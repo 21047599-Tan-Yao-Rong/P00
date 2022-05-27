@@ -51,7 +51,7 @@ public class CalculatorTest {
 		int b = 1111;
 			
 		Calculator cal = new Calculator();
-		int actual = cal.add(a, b); 
+		int actual = cal.substract(a, b); 
 			 
 		int expected = 1111;
 		assertEquals (expected, actual);
@@ -66,7 +66,7 @@ public class CalculatorTest {
 		int b = 3;
 			
 		Calculator cal = new Calculator();
-		int actual = cal.add(a, b); 
+		int actual = cal.multiple(a, b);
 			 
 		int expected = 3000;
 		assertEquals (expected, actual);
@@ -82,7 +82,7 @@ public class CalculatorTest {
 		int b = 3;
 			
 		Calculator cal = new Calculator();
-		int actual = cal.add(a, b); 
+		int actual = cal.divide(a, b);
 			 
 		int expected = 3333;
 		assertEquals (expected, actual);
