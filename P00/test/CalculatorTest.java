@@ -68,7 +68,7 @@ public class CalculatorTest {
 		Calculator cal = new Calculator();
 		int actual = cal.multiple(a, b);
 			 
-		int expected = 3001;
+		int expected = 3000;
 		assertEquals (expected, actual);
 
 		
@@ -86,6 +86,8 @@ public class CalculatorTest {
 			 
 		int expected = 3333;
 		assertEquals (expected, actual);
+		
+		//Hello a
 
 		
 	}
