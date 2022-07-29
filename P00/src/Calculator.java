@@ -19,8 +19,7 @@ public class Calculator {
 		if (b==0) {
 			throw new IllegalArgumentException();
 		}
-		
+		//ABC
 		return a/b;
-		//Hello a
 	}
 }
